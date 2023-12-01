@@ -2,20 +2,20 @@ package com.miroshnichenko.todo.domain;
 
 import lombok.Data;
 import org.springframework.data.annotation.Id;
-import org.springframework.data.relational.core.mapping.MappedCollection;
-import org.springframework.data.relational.core.mapping.Table;
+
+//import org.springframework.data.relational.core.mapping.Table;
 
 import javax.persistence.*;
 //import jakarta.persistence.*;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import java.time.LocalDateTime;
-import java.util.Set;
+
 import java.util.UUID;
 
 @Data
 @Entity
-@Table(name = "employee" )
+//@Table(name = "employee" )
 public class Employee {
 
     @NotNull

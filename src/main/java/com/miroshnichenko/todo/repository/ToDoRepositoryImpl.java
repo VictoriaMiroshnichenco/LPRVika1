@@ -1,15 +1,9 @@
 package com.miroshnichenko.todo.repository;
 
 import com.miroshnichenko.todo.domain.Employee;
-import com.miroshnichenko.todo.domain.ToDo;
+
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Lazy;
-import org.springframework.data.jdbc.core.JdbcAggregateOperations;
-import org.springframework.data.jdbc.core.convert.JdbcConverter;
-import org.springframework.data.jdbc.repository.support.SimpleJdbcRepository;
-import org.springframework.data.jpa.repository.support.JpaEntityInformation;
-import org.springframework.data.jpa.repository.support.SimpleJpaRepository;
-import org.springframework.data.mapping.PersistentEntity;
+
 import org.springframework.stereotype.Repository;
 
 import javax.persistence.EntityManager;
