@@ -39,7 +39,7 @@ public class SecurityConfig  {
 
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
-        http.authorizeRequests().antMatchers("/**").hasRole("USER").and().formLogin();
+        http.authorizeRequests().antMatchers("/**").hasRole("USER").and().httpBasic();
         return http.build();
     }
 

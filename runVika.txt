@@ -16,3 +16,6 @@ http://localhost:8080/api/todo/5820a4c2abe74f409da89217bf905a0c
 http://localhost:8080/st
 user password (in memory user role user)
 admin password (in memory user role user+admin)
+Postman
+http://localhost:8080/api/todo/5820a4c2abe74f409da89217bf905a0c
+Authorization Basic auth user password
