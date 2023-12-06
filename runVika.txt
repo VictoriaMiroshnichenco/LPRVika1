@@ -8,3 +8,11 @@ http://localhost:8080/api/employee
 GET http://localhost:8080/api/todowithowner
 Savepoint status, tasks
 65_SavePoint_2_Creade_and_List_Tasks
+
+http://localhost:8080/actuator/health
+
+66_Security
+http://localhost:8080/api/todo/5820a4c2abe74f409da89217bf905a0c
+http://localhost:8080/st
+user password (in memory user role user)
+admin password (in memory user role user+admin)

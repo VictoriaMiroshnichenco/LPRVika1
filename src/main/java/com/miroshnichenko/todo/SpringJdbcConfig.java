@@ -7,7 +7,7 @@ import org.springframework.jdbc.datasource.DriverManagerDataSource;
 import javax.sql.DataSource;
 
 
-//@Configuration
+//@Configuration -I do not use it now,  I use applicationProperties to configure
 public class SpringJdbcConfig {
     //commented out as i use properties configuration
     @Bean
